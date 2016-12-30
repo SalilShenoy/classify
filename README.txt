@@ -33,3 +33,24 @@ This line is printed as there is no missing data (no nans)(Fnc: PrintMissingData
 The data has '?' in place of missin values. The (Fnc: CleanMissingData) takes
 care of such data by skipping such rows.
 The (Fnc: sepDataCountrywise) prints the how the data is split country wise
+
+Binary Data
+F1 score: 0.658718
+Precision:  0.726575
+Recall:  0.602453
+
+Scaling Features
+F1 score: 0.559501
+Precision:  0.705882
+Recall:  0.463404
+
+STEPS TO RUN
+Download the zip file Assignment12fullpipeline.zip
+Unzip the Assignment12fullpipeline.zip
+Run the main.py 
+
+Folder Structure 
+Assignment 12 full pipeline
+---> main.py
+---> data -> adult.txt
+---> visuals - { results }

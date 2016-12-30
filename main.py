@@ -242,12 +242,14 @@ def main():
     #Histogram for the encoded data
     plotData(encode_data)
     
-    bClassifyBinary = False
+    bClassifyBinary = True
     
     #Observe the F Scores, Precision, Recall Scores in this
     if bClassifyBinary:
+        print 'Scaling Features'
         SplitScaleFeatures(encode_data)
     else:
+        print 'Binary Data'
         Classify(data, encode_data)
     
 if __name__ == '__main__':
