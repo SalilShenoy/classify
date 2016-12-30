@@ -218,7 +218,7 @@ def main():
     data = CleanDataset(data)
     
     #Plot for individual feature historgram
-    #plotData(data)
+    plotData(data)
     
     #Correlation Matrix
     if False:
@@ -240,11 +240,11 @@ def main():
     sepDataCountrywise(data)
        
     #Histogram for the encoded data
-    #plotData(encode_data)
+    plotData(encode_data)
     
-    bClassifyBinary = True
+    bClassifyBinary = False
     
-    #Observe the F Scores in this
+    #Observe the F Scores, Precision, Recall Scores in this
     if bClassifyBinary:
         SplitScaleFeatures(encode_data)
     else:
