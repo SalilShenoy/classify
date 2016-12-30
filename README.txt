@@ -9,7 +9,7 @@ Plots
 Histogram of orignal data, encoded data
 Heatmap
 
-Toggle the bClassifyBinary flag to go between methods
+========> TOGGLE the bClassifyBinary flag to go between methods (line: 245)
 
 *******************************************************************************
 *******************************************************************************
